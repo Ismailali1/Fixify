@@ -19,15 +19,16 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@color/white"
-        android:fontFamily="monospace"
+        android:background="@drawable/roundedbutton"
         android:text="@string/get_started"
         android:textSize="20sp"
+        android:visibility="visible"
+        app:fontFamily="monospace"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.578" />
+        app:layout_constraintVertical_bias="0.805" />
 
     <Button
         android:id="@+id/b_return"
@@ -39,15 +40,16 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@color/white"
-        android:fontFamily="monospace"
+        android:background="@drawable/roundedbutton"
         android:text="@string/log_in"
         android:textSize="20sp"
+        android:visibility="visible"
+        app:fontFamily="monospace"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.785" />
+        app:layout_constraintVertical_bias="0.536" />
 
     <TextView
         android:id="@+id/textView"
@@ -60,7 +62,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="or"
-        android:fontFamily="monospace"
+        app:fontFamily="monospace"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
